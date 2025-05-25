@@ -3,7 +3,7 @@ name: Email Step Test
 on:
   push:
     branches: [ main ]
-
+# triggering github action
 jobs:
   tests:
     runs-on: ubuntu-latest
